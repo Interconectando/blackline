@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include blackline *.css
+recursive-include blackline *.csv
+recursive-include blackline *.html
+recursive-include blackline *.ico
+recursive-include blackline *.js
+recursive-include blackline *.json
+recursive-include blackline *.md
+recursive-include blackline *.png
+recursive-include blackline *.py
+recursive-include blackline *.svg
+recursive-include blackline *.txt
+recursive-exclude blackline *.pyc
