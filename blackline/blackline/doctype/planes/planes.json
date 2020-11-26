@@ -5,17 +5,36 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "tipo_pago"
+  "tipo_pago",
+  "inter\u00e9s_anual",
+  "cortes",
+  "monto_m\u00e1ximo"
  ],
  "fields": [
   {
    "fieldname": "tipo_pago",
+   "fieldtype": "Select",
+   "label": "Tipo de pago",
+   "options": "Semanal\nQuincenal"
+  },
+  {
+   "fieldname": "inter\u00e9s_anual",
    "fieldtype": "Data",
-   "label": "Tipo de pago"
+   "label": "Inter\u00e9s Anual"
+  },
+  {
+   "fieldname": "cortes",
+   "fieldtype": "Data",
+   "label": "Cortes"
+  },
+  {
+   "fieldname": "monto_m\u00e1ximo",
+   "fieldtype": "Data",
+   "label": "Monto M\u00e1ximo"
   }
  ],
  "links": [],
- "modified": "2020-09-06 19:37:41.557318",
+ "modified": "2020-09-25 12:38:52.221290",
  "modified_by": "Administrator",
  "module": "BlackLine",
  "name": "Planes",
@@ -32,6 +51,27 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Socio Conductor Financiado",
+   "share": 1
   }
  ],
  "quick_entry": 1,

@@ -1,7 +1,7 @@
 {
  "cards": [],
  "cards_label": "Tablas y bases",
- "category": "Modules",
+ "category": "Domains",
  "charts": [],
  "creation": "2020-09-06 19:24:39.070845",
  "developer_mode_only": 0,
@@ -13,7 +13,7 @@
  "idx": 0,
  "is_standard": 1,
  "label": "BlackLine Finance",
- "modified": "2020-09-06 19:24:50.221326",
+ "modified": "2020-09-29 00:10:58.973392",
  "modified_by": "Administrator",
  "module": "BlackLine",
  "name": "BlackLine Finance",
